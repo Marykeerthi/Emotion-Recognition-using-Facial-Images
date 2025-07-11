@@ -1,10 +1,12 @@
-This project focuses on emotion recognition from facial images using deep learning techniques.
-The goal is to classify images into different emotion categories (e.g., happy, sad, angry, neutral) by training a convolutional neural network (CNN) model
+# Facial Emotion Recognition (Flask App)
 
-DATASET: https://www.kaggle.com/datasets/pankaj4321/fer-2013-facial-expression-dataset/data.
+This app predicts whether a person is "Happy" or "Not Happy" based on a facial image.
 
+## How to Deploy on Render
+1. Push this folder to a GitHub repo.
+2. Go to https://render.com and create a new Web Service.
+3. Select your repo.
+4. Set the start command to: `python app.py`
+5. Use Python 3.10+ environment.
 
-Performed Binary classification with emotions happy and not happy which led to 
-
-Final Training Accuracy: 86.50%
-Final Validation Accuracy: 86.94%
+Make sure to upload your `final_emotion_model.h5` in the same directory.
